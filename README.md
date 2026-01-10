@@ -1,2 +1,2 @@
 # 1jhsd3-front
-A single page CV built with HTML
+This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
