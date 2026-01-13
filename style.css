@@ -1,0 +1,83 @@
+/* 基础重置 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+	background: #f7f8fa;
+	color: #222;
+	line-height: 1.7;
+	padding: 0 10px;
+}
+
+header {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	padding: 32px 24px 16px 24px;
+	margin: 32px auto 24px auto;
+	max-width: 600px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 2.2rem;
+	color: #2d6cdf;
+	margin-bottom: 8px;
+}
+header h2 {
+	font-size: 1.2rem;
+	color: #555;
+	margin-bottom: 16px;
+}
+.contact p {
+	font-size: 1rem;
+	color: #444;
+	margin-bottom: 4px;
+}
+
+section {
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	max-width: 600px;
+	margin: 0 auto 24px auto;
+	padding: 24px 24px 16px 24px;
+}
+
+section h3 {
+	color: #2d6cdf;
+	font-size: 1.2rem;
+	margin-bottom: 12px;
+	border-left: 4px solid #2d6cdf;
+	padding-left: 8px;
+}
+
+.project, .school {
+	margin-bottom: 12px;
+}
+.project h4, .school h4 {
+	font-size: 1.05rem;
+	color: #1a3a6b;
+	margin-bottom: 4px;
+}
+.project ul {
+	margin-left: 18px;
+	margin-bottom: 8px;
+}
+.project li {
+	margin-bottom: 2px;
+}
+
+@media (max-width: 700px) {
+	header, section {
+		padding: 18px 6vw 10px 6vw;
+		max-width: 98vw;
+	}
+	body {
+		font-size: 15px;
+	}
+}
